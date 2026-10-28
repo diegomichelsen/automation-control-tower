@@ -1,0 +1,32 @@
+# Arquivos que NÃO entram na imagem Docker
+
+# Segredos
+**/.env
+
+# Git e editores
+**/.git
+**/.gitignore
+**/.vscode
+**/.idea
+
+# Python
+**/__pycache__
+**/*.py[cod]
+**/.venv
+**/venv
+**/.pytest_cache
+
+# Partes do projeto que a API não usa em execução
+tests/
+docs/
+data/
+scripts/
+workflows/
+schema/
+*.html
+
+# Build e documentação
+**/Dockerfile*
+**/docker-compose*
+LICENSE
+README*.md

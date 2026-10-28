@@ -1,0 +1,11 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: control-tower-api
+    ports:
+      - "8004:8000"     # Porta 8004 no seu PC: permite rodar todos os projetos ao mesmo tempo
+    env_file:
+      - .env
+    restart: unless-stopped
