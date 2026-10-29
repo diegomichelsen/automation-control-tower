@@ -1,5 +1,9 @@
 # Automation Control Tower
 
+[![Testes](https://github.com/diegomichelsen/automation-control-tower/actions/workflows/tests.yml/badge.svg)](https://github.com/diegomichelsen/automation-control-tower/actions/workflows/tests.yml)
+![Status](https://img.shields.io/badge/status-planejado-lightgrey)
+
+
 > Plataforma central de observabilidade, diagnóstico de incidentes e confiabilidade de automações.
 
 **Status:** Planejamento  
